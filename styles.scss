@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+
+.ag-header-container,
+.ag-header-viewport{
+    background-color:#2763A5 !important;
+    color:#fff !important;
+}
+.ag-header-cell-menu-button {
+    opacity: 1 !important;
+}
+.ag-theme-balham .ag-header-cell::after, .ag-theme-balham .ag-header-group-cell::after {
+    height: 31px !important;
+    margin-top: 0px !important;
+}
+.ag-theme-balham .ag-cell {
+    border-right: 1px solid #d9dcde !important;
+}
+.ag-theme-balham .ag-ltr .ag-cell-focus {
+    border: 1px solid #0091EA !important;
+    outline: initial;
+}
